@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITcenter</title>
+    <link rel="stylesheet" href="style/style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Group312.svg" type="image/png">
+</head>
+<body>
+    <div class="header">
+      <a class = "logo" href="index.html">ITcenter</a>
+      <div class="header-buttons">
+          <a href="index.html">Вернуться на главную</a>
+          <a href="index2.html">html basics</a>
+          <a href="index3.html">css basics</a>
+        </div>
+      </div>
+
+      <div class="block-curs">
+        <div class="block-curs-title">
+      <p>[ADAPTIVE-BASICS]</p>
+      <p>Шаг №3</p>
+      </div>
+
+      <div id = "block-ada1" class="code-block-ada1">
+        <div class="code-block-text">
+          <p>
+            c/теперь поговорим про адаптив.<br/><br/>
+            для адаптива используются медиа-запросы или медиа-выражения<br/>
+            Медиа-выражения используются в тех случаях,<br/>  когда нужно применить разные CSS-стили, для разных устройств по типу отображения<br/> 
+            (например: для монитора или смартфона),<br/>  а также конкретных характеристик устройства  (например: ширины окна просмотра браузера),<br/> <br/>
+            или внешней среды (например: внешнее освещение).<br/>  Учитывая огромное количество подключаемых к интернету устройств,<br/>  медиавыражения
+            являются очень важным инструментом при создании веб-сайтов и приложений,<br/>  которые будут правильно работать на всех доступных устройствах,<br/> 
+            которые есть у ваших пользователей.
+      </p>
+        <a href="#block-ada2"><button id="go-but-ada2" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada2" class="code-block-ada2">
+        <img src="img/conclusao-media-queries2.svg" alt="">
+        <div class="code-block-text8">
+        <p>c/для лучшего понимания, как нужно делать адаптив есть<br/> изображение иделаьно описывающее его суть. слева экран смартфона,<br/> посередине экран планшета и справа экран компьютера.<br/>
+        на них показано как лучше делать адаптив для сайта на те или иные устройства
+        </p>
+        <a href="#block-ada3"><button id="go-but-ada3" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada3" class="code-block-ada3">
+        <div class="code-block-text">
+          <p>
+            Адаптивная вёрстка с медиа-запросами в HTML и CSS<br/>
+      1. Что такое адаптивная вёрстка?<br/>
+      Адаптивная вёрстка — это метод создания веб-страниц,<br/>которые корректно отображаются на разных устройствах и экранах
+      (ПК, планшеты, смартфоны).<br/> Основной инструмент для этого в CSS — медиа-запросы (media queries).
+      </p>
+        <a href="#block-ada4"><button id="go-but-ada4" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada4" class="code-block-ada4">
+        <div class="code-block-text">
+          <p>
+            2. Основы медиа-запросов<br/>
+            Медиа-запросы позволяют применять CSS-правила в зависимости от характеристик устройства.<br/> Например:<br/>
+            - ширины и высоты экрана<br/>
+            - разрешения дисплея<br/>
+            - ориентации экрана (альбомная или портретная)<br/>
+            - типов устройств (экран, принтер и т. д.)<br/>
+            Пример базового медиа-запроса:<br/>
+            @media (max-width: 768px) { body { background-color: lightgray; } }<br/>
+            Этот код меняет цвет фона на светло-серый, если ширина экрана 768 пикселей или меньше.
+      </p>
+        <a href="#block-ada5"><button id="go-but-ada5" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada5" class="code-block-ada5">
+        <div class="code-block-text">
+          <p>
+            3. Принципы адаптивного дизайна<br/>
+            - Мобильный в первую очередь (Mobile First) — сначала стили разрабатываются для мобильных<br/> устройств, а затем расширяются для больших экранов.<br/>
+            - Гибкие сетки (Flexible Grid) — использование<br/> display: flex;, display: grid;.<br/>
+            - Гибкие изображения (Responsive Images) — max-width: 100%<br/> для предотвращения выхода за границы контейнера.<br/>
+            - Относительные единицы измерения — использование<br/> %, em, rem, vw, vh вместо фиксированных px.<br/>
+      </p>
+        <a href="#block-ada6"><button id="go-but-ada6" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada6" class="code-block-ada6">
+        <div class="code-block-text">
+          <p>
+            4. Основные брейкпоинты (breakpoints)<br/>
+            Общие брейкпоинты для адаптивной вёрстки:<br/>
+            /* Смартфоны (до 600px) */ @media (max-width: 600px) { ... }<br/>
+            /* Планшеты (601px - 1024px) */ @media (min-width: 601px) and (max-width: 1024px) { ... }<br/>
+            /* Десктопы (от 1025px) */ @media (min-width: 1025px) { ... }<br/>
+      </p>
+        <a href="#block-ada7"><button id="go-but-ada7" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada7" class="code-block-ada7">
+        <div class="code-block-text">
+          <p>
+            5. Использование flexbox и grid<br/>
+            Flexbox для адаптивного расположения элементов:<br/>
+            .container {<br/>
+            display: flex;<br/>
+            flex-wrap: wrap;<br/>
+            justify-content: space-between;<br/>
+            }<br/>
+            .item {<br/>
+            width: 45%;<br/>
+            margin-bottom: 20px;<br/>
+            }<br/>
+            @media (max-width: 600px) {<br/>
+            .item { width: 100%; } }<br/>
+            Grid для создания адаптивных сеток<br/>
+            .container {<br/> 
+            display: grid;<br/> 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));<br/> 
+            gap: 20px;<br/> 
+            }
+      </p>
+        <a href="#block-ada8"><button id="go-but-ada8" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada8" class="code-block-ada8">
+        <div class="code-block-text">
+          <p>
+            6. Частые ошибки и проблемы<br/> 
+            Использование px вместо %, vw, em Игнорирование viewport meta в &lt;head&gt;:<br/> 
+              &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br/> 
+            Не тестировать сайт на разных устройствах и эмуляторах.<br/> 
+
+            Адаптивная вёрстка — важный навык для создания удобных и доступных сайтов.<br/>  Используйте медиа-запросы и современные CSS-технологии для лучшей оптимизации!
+      </p>
+        <a href="#block-ada9"><button id="go-but-ada9" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada9" class="code-block-ada9">
+        <div class="code-block-text">
+          <p>
+            c/ если вам хватило сил прочитать весь текст, то перейдём к практике<br/> 
+            c/ будем идти от большего к меньшему. От десктопа до смартфона<br/> 
+            c/ задействуем 4 самых популярных разрешения:<br/> 
+            - 1024px<br/> 
+            - 768px<br/> 
+            - 425px<br/> 
+            - 320px<br/> 
+            
+      </p>
+        <a href="#block-ada10"><button id="go-but-ada10" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada10" class="code-block-ada10">
+        <img src="img/image41.svg" alt="">
+        <div class="code-block-text">
+        <p>c/в первом медиа-запросе мы будем менять не много компонентов.<br/> 
+          единственное что мы здесь поменяли,<br/>  это задали карточкам отдельно правило ориентироваться к центру.
+        </p>
+        <a href="#block-ada11"><button id="go-but-ada11" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada11" class="code-block-ada11">
+        <img src="img/image42.svg" alt="">
+        <div class="code-block-text">
+        <p>c/здесь мы зададим обязательное правило ширины карточкам.
+        </p>
+        <a href="#block-ada12"><button id="go-but-ada12" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada12" class="code-block-ada12">
+        <img src="img/image43.svg" alt="">
+        <div class="code-block-text">
+        <p>c/здесь уже задаём полноценные правила для многих компнентов,<br/> 
+           теперь от ширины экрана будет меняться размер текста,<br/> 
+            ширина иконок, и размер заголовка нашего сайта<br/> 
+        </p>
+        <a href="#block-ada13"><button id="go-but-ada13" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada13" class="code-block-ada13">
+        <img src="img/image44.svg" alt="">
+        <div class="code-block-text">
+        <p>c/здесь уже задаём полноценные правила для всех компонентов
+        </p>
+        <a href="#block-ada14"><button id="go-but-ada14" class="go-button">Далее</button></a>
+      </div>
+      </div>
+
+      <div id = "block-ada14" class="code-block-ada14">
+        <div class="code-block-text">
+          <p>
+            c/теперь наш сайт удобен для просмотра на многих устройствах,<br/>
+             при желании можно добавить пару промежуточных вариантов адаптива,<br/>
+              чтобы сайт смотрелся хорошо на всех устройствах.
+      </p>
+        <a href="index5.html"><button id="go-but-ada15" class="go-button">Далее</button></a>
+      </div>
+      </div>
+      <div class="progress-bar" id="progressBar"></div>
+    </body>
+    </html>
+
+          <!---------JS---------->
+          <script>
+            const button33 = document.getElementById("go-but-ada2")
+            const block33 = document.getElementById("block-ada2")
+      
+            button33.addEventListener("click", function() {
+              block33.style.opacity = 1;
+            })
+        </script>
+
+<script>
+  const button35 = document.getElementById("go-but-ada3")
+  const block35 = document.getElementById("block-ada3")
+
+  button35.addEventListener("click", function() {
+    block35.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button36 = document.getElementById("go-but-ada4")
+  const block36 = document.getElementById("block-ada4")
+
+  button36.addEventListener("click", function() {
+    block36.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button37 = document.getElementById("go-but-ada5")
+  const block37 = document.getElementById("block-ada5")
+
+  button37.addEventListener("click", function() {
+    block37.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button38 = document.getElementById("go-but-ada6")
+  const block38 = document.getElementById("block-ada6")
+
+  button38.addEventListener("click", function() {
+    block38.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button39 = document.getElementById("go-but-ada7")
+  const block39 = document.getElementById("block-ada7")
+
+  button39.addEventListener("click", function() {
+    block39.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button40 = document.getElementById("go-but-ada8")
+  const block40 = document.getElementById("block-ada8")
+
+  button40.addEventListener("click", function() {
+    block40.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button41 = document.getElementById("go-but-ada9")
+  const block41 = document.getElementById("block-ada9")
+
+  button41.addEventListener("click", function() {
+    block41.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button42 = document.getElementById("go-but-ada10")
+  const block42 = document.getElementById("block-ada10")
+
+  button42.addEventListener("click", function() {
+    block42.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button43 = document.getElementById("go-but-ada11")
+  const block43 = document.getElementById("block-ada11")
+
+  button43.addEventListener("click", function() {
+    block43.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button44 = document.getElementById("go-but-ada12")
+  const block44 = document.getElementById("block-ada12")
+
+  button44.addEventListener("click", function() {
+    block44.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button45 = document.getElementById("go-but-ada13")
+  const block45 = document.getElementById("block-ada13")
+
+  button45.addEventListener("click", function() {
+    block45.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button46 = document.getElementById("go-but-ada14")
+  const block46 = document.getElementById("block-ada14")
+
+  button46.addEventListener("click", function() {
+    block46.style.opacity = 1;
+  })
+</script>
+
+<script>
+  const button47 = document.getElementById("go-but-ada15")
+  const block47 = document.getElementById("block-ada15")
+
+  button47.addEventListener("click", function() {
+    block47.style.opacity = 1;
+  })
+</script>
+<script>function progressBar() {
+  let scroll = document.body.scrollTop || document.documentElement.scrollTop;
+  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrolled = scroll / height * 100;
+
+  document.getElementById('progressBar').style.width = scrolled + '%';
+}
+
+window.addEventListener('scroll', progressBar);</script>
+
+
+      

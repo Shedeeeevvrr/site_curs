@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITcenter</title>
+    <link rel="stylesheet" href="style/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Group312.svg" type="image/png">
+</head>
+<body>
+    <div class="header">
+      <a class = "logo" href="index.html">ITcenter</a>
+      <div class="header-buttons">
+          <div class="progress-bar" id="progressBar"></div>
+          <a href="index.html">Вернуться на главную</a>
+          <a href="index3.html">css basics</a>
+          <a href="index4.html">adaptive basics</a>
+        </div>
+      </div>
+
+
+      <div class="block-curs">
+        <div class="block-curs-title">
+      <p>[HTML-BASICS]</p>
+  <p>c/создайте в visual studio code файл с расширением .html</p>
+        </div>
+
+  <div id = "block1" class="code-block1">
+        <img src="img/Group100.svg" alt="">
+        <div class="code-block-text">
+          <p> Шаг №1</p>
+          <p>База в создании проекта</p>
+          <a href="#block2"><button id="go-but" class="go-button">Далее</button></a>
+        </div>
+      </div>
+    
+
+
+  <div id="block2" class="code-block2"> 
+    <img src="img/Group43.svg" alt="">
+    <div class="code-block-text">
+      <p>1.1 c/Напишите в файле ! <br/>и по первой подсказке нажмите Tab. <br/>У вас появится форма, основа вашего проекта</p>
+      <a href="#block3"><button id="go-but2" class="go-button">Далее</button></a>
+    </div>
+  </div>
+
+  
+
+  <div id = "block3" class="code-block3">
+      <img src="img/Group48.svg" alt="">
+      <div class="code-block-text">
+      <p>1.2 c/разделим тело нашего проекта на три блока<br/> &lt;header&gt;,<br/> &lt;main&gt;<br/> и &lt;footer&gt;</p>
+      <a href="#block4"><button id="go-but3" class="go-button">Далее</button></a>
+    </div>
+  </div>
+
+  <div  id = "block4" class="code-block4">
+    <img src="img/Group44.svg" alt="">
+    <div class="code-block-text"><p>1.3 c/теперь сделаем три прострых действия для начала.<br/>
+      1/ изменим land c “eng” на “ru”.<br/>
+      2/ в строке &lt;title&gt; поменяем название со стандартного на “мой первый сайт”.<br/>
+      3/ в header напишем заголовок нашего сайта. &lt;h1&gt; Добро пожаловать на мой сайт&lt;/h1&gt;
+      </p>
+      <a href="#block5"><button id="go-but4" class="go-button">Далее</button></a>
+    </div>
+</div>
+
+
+<div id="block5" class="code-block5">
+  <img src="img/Group49.svg" alt="">
+  <div class="code-block-text">
+    <p>1.4 c/теперь вот так выглядит наш сайт<br/> за его изменениями можно смотреть в живую<br/> установив дополнение live server<br/> либо вручную открыть файл с html</p>
+    <a href="#block6"><button id="go-but5" class="go-button">Далее</button></a>
+  </div>
+</div>
+
+<div id="block6" class="code-block6">
+  <img src="img/Group50.svg" alt="">
+  <div class="code-block-text">
+    <p>1.5 c/в main добавим меню навигации с помощью маркированного списка.</p>
+    <a href="#block7"><button id="go-but6" class="go-button">Далее</button></a>
+  </div>
+</div>
+
+<div id="block7" class="code-block7">
+  <img src="img/Group51.svg" alt="">
+  <div class="code-block-text">
+    <p>1.6 c/теперь всё должно выглядеть так. c/после навигационного меню добавьте текст<br/> &lt;h2&gt;О нас&lt;/h2&gt;<br/> &lt;p&gt;Мы создаем удивительные веб-сайты.&lt;/p&gt;</p>
+    <a href="#block8"><button id="go-but7" class="go-button">Далее</button></a>
+  </div>
+</div>
+
+<div id="block8" class="code-block8">
+  <img src="img/Group52.svg" alt="">
+  <div class="code-block-text">
+    <p>1.7 c/для окончания разметки сайта добавьте в footer описание&lt;p&gt; 2025 Мой первый сайт&lt;/p&gt;</p>
+    <a href="#block9"><button id="go-but8" class="go-button">Далее</button></a>
+  </div>
+</div>
+
+<div id="block9" class="code-block9">
+  <img src="img/Group53.svg" alt="">
+  <div class="code-block-text">
+    <p>1.8 c/ на данный момент ваш сайт выглядит так. Но это только начало работы, далее начинается стилизация вашего сайта. 
+      Именно благодаря ней сайт приобритёт краски и смотрибельный внешний вид</p>
+      <a href="index3.html"><button id="go-but9" class="go-button">Далее</button></a>
+  </div>
+</div>
+
+</div>
+<!---------JS---------->
+<script>
+  const button = document.getElementById("go-but");
+  const block = document.getElementById("block2");
+  
+  button.addEventListener("click", function() {
+    block.style.opacity = 1; 
+    block.style.display = "flex"; 
+  })
+  ;
+  </script>
+
+  <script>
+      const button2 = document.getElementById("go-but2")
+      const block2 = document.getElementById("block3")
+
+      button2.addEventListener("click", function() {
+        block2.style.opacity = 1;
+        block2.style.display = "flex";
+      })
+  </script>
+
+  <script>
+    const button3 = document.getElementById("go-but3")
+      const block3 = document.getElementById("block4")
+
+      button3.addEventListener("click", function() {
+        block3.style.opacity = 1;
+        block3.style.display = "flex";
+      })
+  </script>
+
+  <script>
+    const button4 = document.getElementById("go-but4")
+      const block4 = document.getElementById("block5")
+
+      button4.addEventListener("click", function() {
+        block4.style.opacity = 1;
+        block4.style.display = "flex";
+      })
+  </script>
+
+  <script>
+    const button5 = document.getElementById("go-but5")
+      const block5 = document.getElementById("block6")
+
+      button5.addEventListener("click", function() {
+        block5.style.opacity = 1;
+        block5.style.display = "flex";
+      })
+  </script>
+
+<script>
+  const button6 = document.getElementById("go-but6")
+    const block6 = document.getElementById("block7")
+
+    button6.addEventListener("click", function() {
+      block6.style.opacity = 1;
+      block6.style.display = "flex";
+    })
+</script>
+
+<script>
+  const button7 = document.getElementById("go-but7")
+    const block7 = document.getElementById("block8")
+
+    button7.addEventListener("click", function() {
+      block7.style.opacity = 1;
+      block7.style.display = "flex";
+    })
+</script>
+
+<script>
+  const button8 = document.getElementById("go-but8")
+    const block8 = document.getElementById("block9")
+
+    button8.addEventListener("click", function() {
+      block8.style.opacity = 1;
+      block8.style.display = "flex";
+    })
+</script>
+
+  <script>function progressBar() {
+    let scroll = document.body.scrollTop || document.documentElement.scrollTop;
+    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let scrolled = scroll / height * 100;
+
+    document.getElementById('progressBar').style.width = scrolled + '%';
+}
+
+window.addEventListener('scroll', progressBar);</script>
+<script type="text/javascript">
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+</script>
+
+</body>
+</html>

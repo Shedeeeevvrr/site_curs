@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITcenter</title>
+    <link rel="stylesheet" href="style/style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Group312.svg" type="image/png">
+</head>
+<body>
+    <div class="header">
+        <a class = "logo" href="index.html">ITcenter</a>
+        <div class="header-buttons">
+          <div class="progress-bar" id="progressBar"></div>
+          <a href="index.html">Вернуться на главную</a>
+          <a href="index2.html">html basics</a>
+          <a href="index4.html">adaptive basics</a>
+        </div>
+      </div>
+
+      <div class="block-curs">
+        <div class="block-curs-title">
+      <p>[CSS-BASICS]</p>
+      <p>c/ Создайте файл с расширением .css
+        затем зайдите в файл html и подключите его с помощью команды: 
+        &lt;link rel="stylesheet" href="/style.css"&gt;</p>
+        </div>
+        
+        <div id = "block-css1" class="code-block-css1">
+        <div class="img-block1">
+          <img src="img/Group54.svg" class="img-block1-1" alt="">
+          <img src="img/Group61.svg" alt="">
+        </div>
+          <div class="code-block-text">
+            <h1> Шаг №2</h1>
+            <p>Стилизованная вёрстка</p>
+            <a href="#block-css2"><button id="go-but-css2" class="go-button">Далее</button></a>
+          </div>
+      </div>
+
+      <div id = "block-css2" class="code-block-css2">
+        <img src="img/Group56.svg" alt="">
+        <div class="code-block-text">
+        <p>c/ теперь откройте файл css.<br/>
+          c/ для начала в стилях<br/> зададим телу нашего сайта шрифт<br/> с помощью font-family,<br/> который мы будем использовать.<br/>Мы воьзьмем Arial, но вы можете любой другой.<br/><br/>
+          сделаем нулевые отступы<br/> с помощью padding и margin,<br/> чтобы прижать элементы к стенкам страницы,<br/> в будущем это пригодится.<br/>
+          и зададим цвет фона background-color</p>
+        <a href="#block-css3"><button id="go-but-css3" class="go-button">Далее</button></a>
+      </div>
+    </div>
+
+    <div id = "block-css3" class="code-block-css3">
+      <img src="img/Group57.svg" alt="">
+      <div class="code-block-text">
+      <p>c/ зададим стили шапке.<br/> background сделаем черным<br/> а цвет текста белым<br/> общие отступы (padding) сделаем на 10px<br/> ну и отцентрируем</p>
+      <a href="#block-css3"><button id="go-but-css4" class="go-button">Далее</button></a>
+    </div>
+  </div>
+
+  <div id = "block-css4" class="code-block-css4">
+    <img src="img/Group59.svg" alt="">
+    <div class="code-block-text">
+    <p>c/ у тела будет общий отступ 1. <br/>и будет центрирование текста и элементов </p>
+    <a href="#block-css4"><button id="go-but-css5" class="go-button">Далее</button></a>
+  </div>
+</div>
+
+<div id = "block-css5" class="code-block-css5">
+  <img src="img/Group58.svg" alt="">
+  <div class="code-block-text">
+  <p >c/ предадим меню навигации красок.<br/>
+    в nav ul мы зададим элементам навигации <br/>
+    (главная, о нас, контакты) стиль и<br/> отступы.<br/><br/>
+    в nav ul li мы задидим чтобы блок с<br/> ними был в одну линию.<br/><br/>
+    в nav ul li a мы сделаем чтобы у текста<br/> в них был стиль, центрирование,<br/> отступы, и не было подчёркивания (text-<br/>decoration).<br/><br/>
+    в nav ul li a:hover мы сделаем чтобы<br/> при наведении на меню у него менялся<br/> задний фон</p>
+  <a href="#block-css6"><button id="go-but-css6" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css6" class="code-block-css6">
+  <img src="img/Group60.svg" alt="">
+  <div class="code-block-text">
+  <p>c/ у подвала и шапки сайта будут похожи стили,<br/> дабы не было визуального дискомфорта</p>
+  <a href="#block-css7"><button id="go-but-css7" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css7" class="code-block-css7">
+  <img src="img/Group86.svg" alt="">
+  <div class="code-block-text7">
+  <p>c/ на данный момент сайт выглядит так. пустовато, надо его заполнить,<br/> пускай пользователь расскажет о себе,<br/> о своих увлечениях,<br/> может даже поделиться ссылками на своии проекты и соцсети.</p>
+  <p>c/ минутка полезной информации о работе с вводом текста в коде:<br/>
+    &lt;p&gt;&lt;/p&gt; просто и удобно чтобы вводить обычный текст а позже его редактировать.<br/>
+    &lt;br&gt;<br/> позволяет делать отступы либо переносить текст на следующею строку. как вам угодно</p>
+  <p>об &lt;img&gt;.<br/> полная команда &lt;img src =”/путь до вашей картинки” alt = “картинка”&gt;<br/> в src вы так же можете использовать и ссылку на любую картинку в интернете</p>
+  <p>скоро нам понадобиться вся эта информация.</p>
+  <a href="#block-css8"><button id="go-but-css8" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css8" class="code-block-css8">
+  <img src="img/Group75.svg" alt="">
+  <div class="code-block-text">
+  <a href="#block-css9"><button id="go-but-css9" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css9" class="code-block-css9">
+  <img src="img/Group77.svg" alt="">
+  <div class="code-block-text">
+  <p>c/как пример можно составить<br/> подобное простенькое описание.<br/><br/>
+    c/вы можете по желанию от себя<br/> что-нибудь добавить. 
+  </p>
+  <a href="#block-css10"><button id="go-but-css10" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css10" class="code-block-css10">
+  <img src="img/Group76.svg" alt="">
+  <div class="code-block-text7">
+    <a href="#block-css11"><button id="go-but-css11" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css11" class="code-block-css11">
+  <div class="code-block-text">
+  <p>c/возможно у вас есть или в будущем будут работы,<br/> которыми вы хотели бы поделиться, поэтому сейчас для них мы создадим карточки<br/><br/>
+    в html добавьте заголовок второго порядка после div main1&lt;h2&gt;мои работы&lt;/h2&gt;
+  </p>
+  <a href="#block-css12"><button id="go-but-css12" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css12" class="code-block-css12">
+  <img src="img/Group78.svg" alt="">
+  <div class="code-block-text">
+  <p>c/наши карточки будут состоять из 5 дивов.<br/> 
+    &lt;div&gt; cards - будет отвечать в целом за все карточки.<br/>  за их ориентирование, размер и т.д.<br/><br/> 
+    &lt;div&gt; card - будет относиться уже к<br/>  каждой отдельной карточке.<br/> <br/> 
+    &lt;div&gt; card-image - будет отвечать за<br/>  размер изображения относительно карточки.<br/> <br/> 
+    &lt;div&gt; card-info - будет текстовым полем в которым<br/>  вы можете подписать название своей работы и информацию о ней.<br/> <br/> 
+    &lt;div&gt; card-button - будет отвечать за<br/>  кнопку перехода к вашей работе<br/> 
+  </p>
+  <a href="#block-css13"><button id="go-but-css13" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css13" class="code-block-css13">
+  <img src="img/Group80.svg" alt="">
+  <div class="code-block-text">
+  <p>c/вот так могут быть оформлены наши карточки.<br/>
+    главное запомните что div cards<br/> общий для всех карточек<br/> и только внутри него должны быть все остальные карточки.<br/><br/>
+    мы можем заменить “#” на ссылку,<br/> чтобы при нажатии на кнопку<br/> нас перекидывало на ваш проект.<br/><br/>
+    c/теперь добавим стили на наши карточки
+  </p>
+  <a href="#block-css14"><button id="go-but-css14" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css14" class="code-block-css14">
+  <img src="img/Group81.svg" alt="">
+  <div class="code-block-text">
+  <p>c/общие стили для всех карточек,<br/>  чтобы они были по центру страницы и отступ между ними в 20px.
+  </p>
+  <a href="#block-css15"><button id="go-but-css15" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css15" class="code-block-css15">
+  <img src="img/Group85.svg" alt="">
+  <div class="code-block-text">
+  <p>c/общие стили для каждой карточки,<br/> чтобы её элементы внутри распологались правильно.
+  </p>
+  <a href="#block-css16"><button id="go-but-css16" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css16" class="code-block-css16">
+  <img src="img/Group84.svg" alt="">
+  <div class="code-block-text">
+  <p>c/стили для изображения внутри карточки
+  </p>
+  <a href="#block-css17"><button id="go-but-css17" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css17" class="code-block-css17">
+  <img src="img/Group82.svg" alt="">
+  <div class="code-block-text">
+  <p>c/стили для текста внутри карточки
+  </p>
+  <a href="#block-css18"><button id="go-but-css18" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css18" class="code-block-css18">
+  <img src="img/Group83.svg" alt="">
+  <div class="code-block-text">
+  <p>c/стили для кнопки внутри карточки
+  </p>
+  <a href="#block-css19"><button id="go-but-css19" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css19" class="code-block-css19">
+  <img src="img/image35.svg" alt="">
+  <div class="code-block-text7">
+  <p>c/теперь наша карточка выглядит вот так.<br/> вы можете сделать столько сколько вам нужно просто перекопировав код начиная с div card.<br/> Главное не забывайте это делать внутри div cards.<br/><br/>
+    они будут автоматически выстраиваться в ряд по ширине экрана
+  </p>
+  <a href="#block-css20"><button id="go-but-css20" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css20" class="code-block-css20">
+  <img src="img/image36.svg" alt="">
+  <a href="#block-css21"><button id="go-but-css21" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css21" class="code-block-css21">
+  <img src="img/image37.svg" alt="">
+  <div class="code-block-text7">
+    <p>
+  c/теперь добавим соц сети. вы можете добавить ссылки на свой гитхаб, вк или телеграмм.<br/> <br/> 
+  c/создадим div с классом contacts.<br/> 
+  внутри него создадим заголовок второго порядка с названием “контакты”.<br/> <br/> 
+
+  внутри этого же div, создадим ещё один div с классом “social-media”.<br/> <br/> 
+
+  уже внутри social-media мы создадим иконки наших соц сетей,<br/>  вы можете их подвязать с помощью ссылок либо же скачать и вызывать из файлов вашего проекта.<br/> 
+  и не забудьте каждому изображению дать класс icon
+</p>
+  <a href="#block-css22"><button id="go-but-css22" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css22" class="code-block-css22">
+  <img src="img/image38.svg" alt="">
+  <div class="code-block-text">
+  <p>c/если вы всё делали правильно то у вас всё должно выглядеть так.<br/>  я взял иконки вк, gmail и телеграмма.
+  </p>
+  <a href="#block-css23"><button id="go-but-css23" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css23" class="code-block-css23">
+  <img src="img/image39.svg" alt="">
+  <div class="code-block-text">
+  <p>c/теперь подключим к ним стили.
+  </p>
+  <a href="#block-css24"><button id="go-but-css24" class="go-button">Далее</button></a>
+</div>
+</div>
+
+<div id = "block-css24" class="code-block-css24">
+  <img src="img/image40.svg" alt="">
+  <a href="index4.html"><button id="go-but-css25" class="go-button">Далее</button></a>
+</div>
+</div>
+
+
+
+
+      <!---------JS---------->
+
+      <script>
+        const button9 = document.getElementById("go-but-css2")
+        const block9 = document.getElementById("block-css2")
+  
+        button9.addEventListener("click", function() {
+          block9.style.opacity = 1;
+          block9.style.display = "flex";
+        })
+    </script>
+
+<script>
+  const button10 = document.getElementById("go-but-css3")
+  const block10 = document.getElementById("block-css3")
+
+  button10.addEventListener("click", function() {
+    block10.style.opacity = 1;
+    block10.style.display = "flex";
+  })
+</script>
+
+<script>
+  const button11 = document.getElementById("go-but-css4")
+  const block11 = document.getElementById("block-css4")
+
+  button11.addEventListener("click", function() {
+    block11.style.opacity = 1;
+    block11.style.display = "flex";
+  })
+</script>
+
+<script>
+  const button12 = document.getElementById("go-but-css5")
+  const block12 = document.getElementById("block-css5")
+
+  button12.addEventListener("click", function() {
+    block12.style.opacity = 1;
+    block12.style.display = "flex";
+  })
+</script>
+
+<script>
+  const button13 = document.getElementById("go-but-css6");
+  const block13 = document.getElementById("block-css6");
+  
+  button13.addEventListener("click", function() {
+    block13.style.opacity = 1; 
+    block13.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button14 = document.getElementById("go-but-css7");
+  const block14 = document.getElementById("block-css7");
+  
+  button14.addEventListener("click", function() {
+    block14.style.opacity = 1; 
+    block14.style.display = "grid"; 
+  });
+</script>
+
+<script>
+  const button15 = document.getElementById("go-but-css8");
+  const block15 = document.getElementById("block-css8");
+  
+  button15.addEventListener("click", function() {
+    block15.style.opacity = 1; 
+    block15.style.display = "grid"; 
+  });
+</script>
+
+<script>
+  const button16 = document.getElementById("go-but-css9");
+  const block16 = document.getElementById("block-css9");
+  
+  button16.addEventListener("click", function() {
+    block16.style.opacity = 1; 
+    block16.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button17 = document.getElementById("go-but-css10");
+  const block17 = document.getElementById("block-css10");
+  
+  button17.addEventListener("click", function() {
+    block17.style.opacity = 1; 
+    block17.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button18 = document.getElementById("go-but-css11");
+  const block18 = document.getElementById("block-css11");
+  
+  button18.addEventListener("click", function() {
+    block18.style.opacity = 1; 
+    block18.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button19 = document.getElementById("go-but-css12");
+  const block19 = document.getElementById("block-css12");
+  
+  button19.addEventListener("click", function() {
+    block19.style.opacity = 1; 
+    block19.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button20 = document.getElementById("go-but-css13");
+  const block20 = document.getElementById("block-css13");
+  
+  button20.addEventListener("click", function() {
+    block20.style.opacity = 1; 
+    block20.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button21 = document.getElementById("go-but-css14");
+  const block21 = document.getElementById("block-css14");
+  
+  button21.addEventListener("click", function() {
+    block21.style.opacity = 1; 
+    block21.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button22 = document.getElementById("go-but-css15");
+  const block22 = document.getElementById("block-css15");
+  
+  button22.addEventListener("click", function() {
+    block22.style.opacity = 1; 
+    block22.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button24 = document.getElementById("go-but-css16");
+  const block24 = document.getElementById("block-css16");
+  
+  button24.addEventListener("click", function() {
+    block24.style.opacity = 1; 
+    block24.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button25 = document.getElementById("go-but-css17");
+  const block25 = document.getElementById("block-css17");
+  
+  button25.addEventListener("click", function() {
+    block25.style.opacity = 1; 
+    block25.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button26 = document.getElementById("go-but-css18");
+  const block26 = document.getElementById("block-css18");
+  
+  button26.addEventListener("click", function() {
+    block26.style.opacity = 1; 
+    block26.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button27 = document.getElementById("go-but-css19");
+  const block27 = document.getElementById("block-css19");
+  
+  button27.addEventListener("click", function() {
+    block27.style.opacity = 1; 
+    block27.style.display = "grid"; 
+  });
+</script>
+
+<script>
+  const button28 = document.getElementById("go-but-css20");
+  const block28 = document.getElementById("block-css20");
+  
+  button28.addEventListener("click", function() {
+    block28.style.opacity = 1; 
+    block28.style.display = "grid"; 
+  });
+</script>
+
+<script>
+  const button29 = document.getElementById("go-but-css21");
+  const block29 = document.getElementById("block-css21");
+  
+  button29.addEventListener("click", function() {
+    block29.style.opacity = 1; 
+    block29.style.display = "grid"; 
+  });
+</script>
+
+<script>
+  const button30 = document.getElementById("go-but-css22");
+  const block30 = document.getElementById("block-css22");
+  
+  button30.addEventListener("click", function() {
+    block30.style.opacity = 1; 
+    block30.style.display = "grid"; 
+  });
+</script>
+
+<script>
+  const button31 = document.getElementById("go-but-css23");
+  const block31 = document.getElementById("block-css23");
+  
+  button31.addEventListener("click", function() {
+    block31.style.opacity = 1; 
+    block31.style.display = "flex"; 
+  });
+</script>
+
+<script>
+  const button32 = document.getElementById("go-but-css24");
+  const block32 = document.getElementById("block-css24");
+  
+  button32.addEventListener("click", function() {
+    block32.style.opacity = 1; 
+    block32.style.display = "grid"; 
+  });
+</script>
+
+<script>function progressBar() {
+  let scroll = document.body.scrollTop || document.documentElement.scrollTop;
+  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrolled = scroll / height * 100;
+
+  document.getElementById('progressBar').style.width = scrolled + '%';
+}
+
+window.addEventListener('scroll', progressBar);</script>
+
+</body>
+</html>

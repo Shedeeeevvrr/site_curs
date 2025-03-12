@@ -1,0 +1,2024 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+      background-image: url(../img/Frame.svg);
+      color: white;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .progress-bar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 10px; 
+      width: 0%;
+      background: red; 
+  }
+  .logo {
+    font-family: "JetBrains Mono", serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+  
+  }
+    .container {
+      width: 100%;
+    }
+    .header {
+      display: flex;
+      justify-content: center;
+      gap: 1050px;
+      align-items: center;
+      background-color: #fff;
+      color: black;
+      
+    }
+  
+    .header-buttons {
+      display: flex;
+      gap: 10px;
+    }
+  .header h1{
+      font-family: "JetBrains Mono", serif;
+  }
+  
+    .header-buttons a {
+      color: black;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 2px solid black;
+      font-size: 0.8em;
+      font-family: "JetBrains Mono", serif;
+      transition: 0.5s;
+    }
+    .header-buttons a:hover {
+      background-color: black;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+  
+    .header-buttons a:nth-child(1) {
+      background-color: darkred;
+      color: white;
+    }
+    .block-curs-title {
+        text-align: center;
+      }
+      .block-curs-title p {
+        font-family: "JetBrains Mono", serif;
+        font-size: 30px;
+      }
+      .block-curs-title p:nth-child(2){
+        font-size: 20px;
+      }
+      .go-button {
+        background-color: black;
+        color: #fff;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        outline: none;
+        width: 200px;
+        height: 30px;
+        transition: 0.5s;
+      }
+      .go-button:hover {
+        background-color: #ffffff;
+        color: black;
+      }
+      .code-block-text {
+        font-family: "JetBrains Mono", serif;
+        font-size: 25px;
+      }
+.code-block-css1{
+    margin-top: 50px;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    animation: 2s show ease;
+    display: flex;
+}
+.code-block-css1 img{
+    width: 600px;
+    display: grid;
+  }
+  .img-block1-1 {
+    height: 400px;
+  }
+  .code-block-css1 h1{
+    font-family: "JetBrains Mono", serif;
+  }
+  .code-block-css2 {
+    margin-top: 101px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css2 img{
+    height: 300px;
+  }
+  .code-block-text-css2 {
+    font-family: "JetBrains Mono", serif;
+    font-size: 20px;
+  }
+
+  .code-block-css3{
+    margin-top: 50px;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css3 img {
+    height: 300px;
+  }
+
+  .code-block-css4 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+
+  .code-block-css5 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+
+  .code-block-css6 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css7 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center;
+    opacity: 0;
+  }
+  .code-block-text7 {
+    font-family: "JetBrains Mono", serif;
+    text-align: left;
+    font-size: 22px;
+  }
+  .code-block-css7 img{
+    width: 1000px;
+  }
+
+  .code-block-css8{
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    opacity: 0;
+  }
+
+  .code-block-css9 {
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+
+  .code-block-css10 {
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-left: 210px;
+    opacity: 0;
+  }
+
+  .code-block-css11 {
+    text-align: left;
+    margin-left: 210px;
+    opacity: 0;
+  }
+
+  .code-block-css12 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+
+  .code-block-css13 {
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css13 img {
+    width: 800px;
+  }
+
+  .code-block-css14 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css14 img {
+    width: 500px;
+  }
+
+  .code-block-css15 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css15 img{
+    width: 500px;
+  }
+
+  .code-block-css16{
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css16 img {
+    width: 500px;
+  }
+
+  .code-block-css17 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css17 img {
+    width: 500px;
+  }
+
+  .code-block-css18{
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css18 img{
+    width: 500px;
+  }
+
+  .code-block-css19 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center; 
+    opacity: 0;
+  }
+
+  .code-block-css20,
+  .code-block-css21{
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center; 
+    opacity: 0;
+  }
+
+  .code-block-css22 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: left; 
+    opacity: 0;
+  }
+
+  .code-block-css23 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css23 img{
+    width: 500px;
+  }
+
+  .code-block-css24 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center; 
+    opacity: 0;
+  }
+  .code-block-css24 img {
+    width: 1400px;
+  }
+
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @media (max-width: 1440px) { 
+    .logo {
+      font-family: "JetBrains Mono", serif;
+      color: #000000;
+      text-decoration: none;
+      font-size: 40px;
+      font-weight: bold;
+    
+    }
+      .container {
+        width: 100%;
+      }
+      .header {
+        display: flex;
+        justify-content: center;
+        gap: 1050px;
+        align-items: center;
+        background-color: #fff;
+        color: black;
+        
+      }
+    
+      .header-buttons {
+        display: flex;
+        gap: 10px;
+      }
+    .header h1{
+        font-family: "JetBrains Mono", serif;
+    }
+    
+      .header-buttons a {
+        color: black;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 2px solid black;
+        font-size: 0.8em;
+        font-family: "JetBrains Mono", serif;
+        transition: 0.5s;
+      }
+      .header-buttons a:hover {
+        background-color: black;
+        color: #fff;
+        border: 2px solid #fff;
+      }
+    
+      .header-buttons a:nth-child(1) {
+        background-color: darkred;
+        color: white;
+      }
+      .block-curs-title {
+          text-align: center;
+        }
+        .block-curs-title p {
+          font-family: "JetBrains Mono", serif;
+          font-size: 30px;
+        }
+        .block-curs-title p:nth-child(2){
+          font-size: 20px;
+        }
+        .go-button {
+          background-color: black;
+          color: #fff;
+          border: 1px solid #ffffff;
+          border-radius: 10px;
+          outline: none;
+          width: 200px;
+          height: 30px;
+          transition: 0.5s;
+        }
+        .go-button:hover {
+          background-color: #ffffff;
+          color: black;
+        }
+        .code-block-text {
+          font-family: "JetBrains Mono", serif;
+          font-size: 25px;
+        }
+  .code-block-css1{
+      margin-top: 50px;
+      gap: 150px;
+      align-items: center;
+      justify-content: center;
+      animation: 2s show ease;
+      display: flex;
+  }
+  .code-block-css1 img{
+      width: 600px;
+      display: grid;
+    }
+    .img-block1-1 {
+      height: 400px;
+    }
+    .code-block-css1 h1{
+      font-family: "JetBrains Mono", serif;
+    }
+    .code-block-css2 {
+      margin-top: 101px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css2 img{
+      height: 300px;
+    }
+    .code-block-text-css2 {
+      font-family: "JetBrains Mono", serif;
+      font-size: 20px;
+    }
+  
+    .code-block-css3{
+      margin-top: 50px;
+      gap: 150px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css3 img {
+      height: 300px;
+    }
+  
+    .code-block-css4 {
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+  
+    .code-block-css5 {
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+  
+    .code-block-css6 {
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css7 {
+      margin-top: 50px;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: grid;
+      text-align: center;
+      opacity: 0;
+    }
+    .code-block-text7 {
+      font-family: "JetBrains Mono", serif;
+      text-align: left;
+      font-size: 22px;
+    }
+    .code-block-css7 img{
+      width: 1000px;
+    }
+  
+    .code-block-css8{
+      margin-top: 50px;
+      display: grid;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      text-align: center;
+      opacity: 0;
+    }
+  
+    .code-block-css9 {
+      margin-top: 50px;
+      gap: 50px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+  
+    .code-block-css10 {
+      margin-top: 20px;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      gap: 100px;
+      align-items: center;
+      margin-left: 210px;
+      opacity: 0;
+    }
+  
+    .code-block-css11 {
+      text-align: left;
+      margin-left: 210px;
+      opacity: 0;
+    }
+  
+    .code-block-css12 {
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+  
+    .code-block-css13 {
+      margin-top: 50px;
+      gap: 50px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css13 img {
+      width: 800px;
+    }
+  
+    .code-block-css14 {
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css14 img {
+      width: 500px;
+    }
+  
+    .code-block-css15 {
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css15 img{
+      width: 500px;
+    }
+  
+    .code-block-css16{
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css16 img {
+      width: 500px;
+    }
+  
+    .code-block-css17 {
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css17 img {
+      width: 500px;
+    }
+  
+    .code-block-css18{
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css18 img{
+      width: 500px;
+    }
+  
+    .code-block-css19 {
+      margin-top: 50px;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: grid;
+      text-align: center; 
+      opacity: 0;
+    }
+  
+    .code-block-css20,
+    .code-block-css21{
+      margin-top: 50px;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: grid;
+      text-align: center; 
+      opacity: 0;
+    }
+  
+    .code-block-css22 {
+      margin-top: 50px;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: grid;
+      text-align: left; 
+      opacity: 0;
+    }
+  
+    .code-block-css23 {
+      margin-top: 50px;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      opacity: 0;
+    }
+    .code-block-css23 img{
+      width: 500px;
+    }
+  
+    .code-block-css24 {
+      margin-top: 50px;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+      display: grid;
+      text-align: center; 
+      opacity: 0;
+    }
+    .code-block-css24 img {
+      width: 1400px;
+    }
+  
+    @keyframes show {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+  }
+  
+  @media (max-width: 1440px) 
+  {
+    .progress-bar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 10px; 
+      width: 0%;
+      background: red; 
+  }
+  .logo {
+    font-family: "JetBrains Mono", serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 100px;
+  
+  }
+    .container {
+      width: 100%;
+    }
+    .header {
+      display: flex;
+      justify-content: center;
+      gap: 1050px;
+      align-items: center;
+      background-color: #fff;
+      color: black;
+      
+    }
+  
+    .header-buttons {
+      display: flex;
+      gap: 15px;
+    }
+  .header h1{
+      font-family: "JetBrains Mono", serif;
+  }
+  
+    .header-buttons a {
+      color: black;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 2px solid black;
+      font-size: 0.2em;
+      font-family: "JetBrains Mono", serif;
+      transition: 0.5s;
+    }
+    .header-buttons a:hover {
+      background-color: black;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+  
+    .header-buttons a:nth-child(1) {
+      background-color: darkred;
+      color: white;
+    }
+    .block-curs-title {
+        text-align: center;
+      }
+      .block-curs-title p {
+        font-family: "JetBrains Mono", serif;
+        font-size: 30px;
+      }
+      .block-curs-title p:nth-child(2){
+        font-size: 20px;
+      }
+      .go-button {
+        background-color: black;
+        color: #fff;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        outline: none;
+        width: 200px;
+        height: 30px;
+        transition: 0.5s;
+      }
+      .go-button:hover {
+        background-color: #ffffff;
+        color: black;
+      }
+      .code-block-text {
+        font-family: "JetBrains Mono", serif;
+        font-size: 25px;
+      }
+  .code-block-css1{
+    margin-top: 50px;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    animation: 2s show ease;
+    display: flex;
+  }
+  .code-block-css1 img{
+    width: 600px;
+    display: grid;
+  }
+  .img-block1-1 {
+    height: 400px;
+  }
+  .code-block-css1 h1{
+    font-family: "JetBrains Mono", serif;
+  }
+  .code-block-css2 {
+    margin-top: 101px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css2 img{
+    height: 300px;
+  }
+  .code-block-text-css2 {
+    font-family: "JetBrains Mono", serif;
+    font-size: 20px;
+  }
+  
+  .code-block-css3{
+    margin-top: 50px;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css3 img {
+    height: 300px;
+  }
+  
+  .code-block-css4 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  
+  .code-block-css5 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  
+  .code-block-css6 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css7 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center;
+    opacity: 0;
+  }
+  .code-block-text7 {
+    font-family: "JetBrains Mono", serif;
+    text-align: left;
+    font-size: 22px;
+  }
+  .code-block-css7 img{
+    width: 1000px;
+  }
+  
+  .code-block-css8{
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    opacity: 0;
+  }
+  
+  .code-block-css9 {
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  
+  .code-block-css10 {
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-left: 210px;
+    opacity: 0;
+  }
+  
+  .code-block-css11 {
+    text-align: left;
+    margin-left: 210px;
+    opacity: 0;
+  }
+  
+  .code-block-css12 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  
+  .code-block-css13 {
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css13 img {
+    width: 800px;
+  }
+  
+  .code-block-css14 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css14 img {
+    width: 500px;
+  }
+  
+  .code-block-css15 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css15 img{
+    width: 500px;
+  }
+  
+  .code-block-css16{
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css16 img {
+    width: 500px;
+  }
+  
+  .code-block-css17 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css17 img {
+    width: 500px;
+  }
+  
+  .code-block-css18{
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css18 img{
+    width: 500px;
+  }
+  
+  .code-block-css19 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center; 
+    opacity: 0;
+  }
+  
+  .code-block-css20,
+  .code-block-css21{
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center; 
+    opacity: 0;
+  }
+  
+  .code-block-css22 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: left; 
+    opacity: 0;
+  }
+  
+  .code-block-css23 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css23 img{
+    width: 500px;
+  }
+  
+  .code-block-css24 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center; 
+    opacity: 0;
+  }
+  .code-block-css24 img {
+    width: 1400px;
+  }
+  
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @media (max-width: 1440px) { 
+  .logo {
+    font-family: "JetBrains Mono", serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+  
+  }
+    .container {
+      width: 100%;
+    }
+    .header {
+      display: flex;
+      justify-content: center;
+      gap: 1050px;
+      align-items: center;
+      background-color: #fff;
+      color: black;
+      
+    }
+  
+    .header-buttons {
+      display: flex;
+      gap: 10px;
+    }
+  .header h1{
+      font-family: "JetBrains Mono", serif;
+  }
+  
+    .header-buttons a {
+      color: black;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 2px solid black;
+      font-size: 0.8em;
+      font-family: "JetBrains Mono", serif;
+      transition: 0.5s;
+    }
+    .header-buttons a:hover {
+      background-color: black;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+  
+    .header-buttons a:nth-child(1) {
+      background-color: darkred;
+      color: white;
+    }
+    .block-curs-title {
+        text-align: center;
+      }
+      .block-curs-title p {
+        font-family: "JetBrains Mono", serif;
+        font-size: 30px;
+      }
+      .block-curs-title p:nth-child(2){
+        font-size: 20px;
+      }
+      .go-button {
+        background-color: black;
+        color: #fff;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        outline: none;
+        width: 200px;
+        height: 30px;
+        transition: 0.5s;
+      }
+      .go-button:hover {
+        background-color: #ffffff;
+        color: black;
+      }
+      .code-block-text {
+        font-family: "JetBrains Mono", serif;
+        font-size: 25px;
+      }
+  .code-block-css1{
+    margin-top: 50px;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    animation: 2s show ease;
+    display: flex;
+  }
+  .code-block-css1 img{
+    width: 600px;
+    display: grid;
+  }
+  .img-block1-1 {
+    height: 400px;
+  }
+  .code-block-css1 h1{
+    font-family: "JetBrains Mono", serif;
+  }
+  .code-block-css2 {
+    margin-top: 101px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css2 img{
+    height: 300px;
+  }
+  .code-block-text-css2 {
+    font-family: "JetBrains Mono", serif;
+    font-size: 20px;
+  }
+  
+  .code-block-css3{
+    margin-top: 50px;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css3 img {
+    height: 300px;
+  }
+  
+  .code-block-css4 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  
+  .code-block-css5 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  
+  .code-block-css6 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css7 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center;
+    opacity: 0;
+  }
+  .code-block-text7 {
+    font-family: "JetBrains Mono", serif;
+    text-align: left;
+    font-size: 22px;
+  }
+  .code-block-css7 img{
+    width: 1000px;
+  }
+  
+  .code-block-css8{
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    opacity: 0;
+  }
+  
+  .code-block-css9 {
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  
+  .code-block-css10 {
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-left: 210px;
+    opacity: 0;
+  }
+  
+  .code-block-css11 {
+    text-align: left;
+    margin-left: 210px;
+    opacity: 0;
+  }
+  
+  .code-block-css12 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  
+  .code-block-css13 {
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css13 img {
+    width: 800px;
+  }
+  
+  .code-block-css14 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css14 img {
+    width: 500px;
+  }
+  
+  .code-block-css15 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css15 img{
+    width: 500px;
+  }
+  
+  .code-block-css16{
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css16 img {
+    width: 500px;
+  }
+  
+  .code-block-css17 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css17 img {
+    width: 500px;
+  }
+  
+  .code-block-css18{
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css18 img{
+    width: 500px;
+  }
+  
+  .code-block-css19 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center; 
+    opacity: 0;
+  }
+  
+  .code-block-css20,
+  .code-block-css21{
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center; 
+    opacity: 0;
+  }
+  
+  .code-block-css22 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: left; 
+    opacity: 0;
+  }
+  
+  .code-block-css23 {
+    margin-top: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    opacity: 0;
+  }
+  .code-block-css23 img{
+    width: 500px;
+  }
+  
+  .code-block-css24 {
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    display: grid;
+    text-align: center; 
+    opacity: 0;
+  }
+  .code-block-css24 img {
+    width: 1400px;
+  }
+  }
+  }
+  @media (max-width: 1440px) {
+  
+    body {
+      background-image: url(../img/Frame.svg);
+      color: white;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 40px;
+          display: flex;
+          justify-content: center;
+          gap: 1000px;
+          align-items: center;
+          background-color: #fff;
+          color: black;
+          width: 100%;
+    }
+    .logo {
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    .header-buttons {
+        gap: 8px;
+    }
+    .code-block-css1,
+    .code-block-css2,
+    .code-block-css3,
+    .code-block-css4 {
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .code-block-css1 img,
+    .code-block-css2 img,
+    .code-block-css3 img,
+    .code-block-css4 img {
+        width: 520px;
+    }
+    .code-block-text {
+        font-size: 18px;
+        max-width: 80%;
+        margin: auto;
+    }
+  
+    .code-block-css5 img{
+      width: 400px;
+      padding-left: 50px;
+    }
+    .code-block-css6 img {
+      width: 400px;
+      padding-left: 50px;
+    }
+  
+    .code-block-css7 {
+      align-items: center;
+    }
+  
+    .code-block-css7 img{
+      width: 800px;
+      padding-left: 100px;
+      align-items: center;
+    }
+    .code-block-text7 {
+      font-family: "JetBrains Mono", serif;
+      text-align: left;
+      font-size: 18px;
+    }
+    .header-buttons a {
+      color: black;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: 2px solid black;
+      font-size: 0.6em;
+      font-family: "JetBrains Mono", serif;
+      transition: 0.5s;
+      
+    }
+    .code-block-css9 img {
+      width: 800px;
+      padding-left: 100px;
+    }
+    code-block-text {
+      padding-left: 100px;
+    }
+    .code-block-css12 img,
+    .code-block-css13 img,
+    .code-block-css14 img,
+    .code-block-css15 img,
+    .code-block-css16 img,
+    .code-block-css17 img,
+    .code-block-css18 img,
+    .code-block-css23 img
+  {
+      padding-left: 100px;
+    }
+    .code-block-css13 img {
+      width: 700px;
+    }
+  
+    .code-block-css24 img {
+      padding-left: 70px;
+    }
+    .block-curs-title {
+      padding-left: 10%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+  
+    body {
+      background-image: url(../img/Frame.svg);
+      color: white;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 110px;
+          display: flex;
+          justify-content: center;
+          gap: 850px;
+          align-items: center;
+          background-color: #fff;
+          color: black;
+          width: 100%;
+    }
+    .logo {
+        font-size: 30px;
+        padding-left: 5px;
+    }
+    .header-buttons {
+        gap: 6px;
+    }
+    .code-block-css1,
+    .code-block-css2,
+    .code-block-css3,
+    .code-block-css4 {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+    .code-block-css1 img,
+    .code-block-css2 img,
+    .code-block-css3 img,
+    .code-block-css4 img {
+        width: 520px;
+    }
+  
+    .code-block-text {
+        font-size: 16px;
+        max-width: 80%;
+        margin: auto;
+    }
+  
+    .code-block-css5 img{
+      width: 300px;
+      padding-left: 30px;
+    }
+    .code-block-css6 img {
+      width: 300px;
+      padding-left: 30px;
+    }
+  
+    .code-block-css7 {
+      align-items: center;
+    }
+  
+    .code-block-css7 img{
+      width: 600px;
+      padding-left: 80px;
+      align-items: center;
+    }
+    .code-block-text7 {
+      font-family: "JetBrains Mono", serif;
+      text-align: left;
+      font-size: 16px;
+    }
+  
+    .code-block-css9 img {
+      width: 1200px;
+    }
+    .header-buttons a {
+      color: black;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      border: 2px solid black;
+      font-size: 0.5em;
+      font-family: "JetBrains Mono", serif;
+      transition: 0.5s;
+    }
+    .code-block-css9 img {
+      width: 600px;
+      padding-left: 80px;
+    }
+    code-block-text {
+      padding-left: 80px;
+    }
+    .code-block-css12 img,
+    .code-block-css13 img,
+    .code-block-css14 img,
+    .code-block-css15 img,
+    .code-block-css16 img,
+    .code-block-css17 img,
+    .code-block-css18 img,
+    .code-block-css23 img
+    {
+      padding-left: 80px;
+    }
+  
+    .code-block-css19 img {
+  width: 900px;
+  padding-left: -500px;
+    }
+  .code-block-css19 {
+  padding-left: 200px;
+  }
+  .code-block-css20 img {
+    width: 900px;
+    padding-left: 200px;
+      } 
+  
+      .code-block-css21 img {
+        width: 900px;
+          } 
+          .code-block-css21 {
+            padding-left: 200px;
+          }
+          .code-block-css22 img {
+            width: 900px;
+              } 
+              .code-block-css23 img {
+                width: 700px;
+                  } 
+  
+    .code-block-css24 img {
+      padding-left: 50px;
+      width: 900px;
+    }
+    .code-block-css13 {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  
+    body {
+      background-image: url(../img/Frame.svg);
+      color: white;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 60px;
+          display: flex;
+          justify-content: center;
+          gap: 500px;
+          align-items: center;
+          background-color: #fff;
+          color: black;
+          width: 100%;
+    }
+    .logo {
+        font-size: 25px;
+        padding-left: 5px;
+    }
+    .header-buttons {
+        gap: 5px;
+    }
+    .code-block-css1,
+    .code-block-css2,
+    .code-block-css3,
+    .code-block-css4 {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .code-block-css1 img,
+    .code-block-css2 img,
+    .code-block-css3 img,
+    .code-block-css4 img {
+        width: 400px;
+    }
+  
+    .code-block-text {
+        font-size: 14px;
+        max-width: 80%;
+        margin: auto;
+    }
+  
+    .code-block-css5 img{
+      width: 250px;
+      padding-left: 20px;
+    }
+    .code-block-css6 img {
+      width: 250px;
+      padding-left: 20px;
+    }
+  
+    .code-block-css7 {
+      align-items: center;
+    }
+  
+    .code-block-css7 img{
+      width: 500px;
+      padding-left: 50px;
+      align-items: center;
+    }
+    .code-block-text7 {
+      font-family: "JetBrains Mono", serif;
+      text-align: left;
+      font-size: 14px;
+    }
+  
+    .code-block-css8 img {
+      width: 700px;
+    }
+  
+    .code-block-css9 img {
+      width: 500px;
+      padding-left: 50px;
+    }
+  
+    .code-block-css10 {
+      margin-top: 20px;
+      transition: 0.3s ease-in-out;
+      display: flex;
+      gap: 100px;
+      align-items: center;
+      margin-left: 35px;
+      opacity: 0;
+    }
+  
+    .header-buttons a {
+      color: black;
+      text-decoration: none;
+      padding: 6px 10px;
+      border-radius: 5px;
+      border: 2px solid black;
+      font-size: 0.5em;
+      font-family: "JetBrains Mono", serif;
+      transition: 0.5s;
+    }
+    code-block-text {
+      padding-left: 50px;
+    }
+    
+  .code-block-css13 img {
+    width: 500px;
+  }
+  
+    .code-block-css12 img,
+    .code-block-css13 img,
+    .code-block-css14 img,
+    .code-block-css15 img,
+    .code-block-css16 img,
+    .code-block-css17 img,
+    .code-block-css18 img,
+    .code-block-css23 img
+    {
+      padding-left: 70px;
+    }
+  
+    .code-block-css19 img {
+      width: 700px;
+      padding-left: 0px;
+    }
+    .code-block-css19 {
+      padding-left: 100px;
+    }
+    .code-block-css20 img {
+      width: 700px;
+      padding-left: 100px;
+    }
+    .code-block-css21 img {
+      width: 700px;
+    }
+    .code-block-css21 {
+      padding-left: 100px;
+    }
+    .code-block-css22 img {
+      width: 700px;
+    }
+    .code-block-css23 img {
+      width: 600px;
+    }
+    .code-block-css24 img {
+      padding-left: 30px;
+      width: 700px;
+    }
+    .code-block-css13 {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+  
+    body {
+      background-image: url(../img/Frame.svg);
+      color: white;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 6px;
+        background-color: #ffffff;
+        color: black;
+        text-align: center;
+        gap: 10px;
+    }
+    .logo {
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    .header-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .header-buttons a {
+      width: 100%;
+      text-align: center;
+      padding: 8px;
+      font-size: 0.6em;
+    }
+  
+  
+   .code-block-css1,
+    .code-block-css2,
+    .code-block-css3,
+    .code-block-css4,
+    .code-block-css5,
+    .code-block-css6,
+    .code-block-css7,
+    .code-block-css8,
+    .code-block-css9,
+    .code-block-css10,
+    .code-block-css12,
+    .code-block-css13,
+    .code-block-css14,
+    .code-block-css15,
+    .code-block-css16,
+    .code-block-css17,
+    .code-block-css18,
+    .code-block-css19,
+    .code-block-css20,
+    .code-block-css21,
+    .code-block-css22,
+    .code-block-css23,
+    .code-block-css24 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 0.4em;
+    }
+  
+    .code-block-css1 img,
+    .code-block-css2 img,
+    .code-block-css3 img,
+    .code-block-css4 img,
+    .code-block-css5 img,
+    .code-block-css6 img,
+    .code-block-css7 img,
+    .code-block-css8 img,
+    .code-block-css9 img,
+    .code-block-css10 img,
+    .code-block-css11 img,
+    .code-block-css12 img,
+    .code-block-css13 img,
+    .code-block-css14 img,
+    .code-block-css15 img,
+    .code-block-css16 img,
+    .code-block-css17 img,
+    .code-block-css18 img,
+    .code-block-css19 img,
+    .code-block-css20 img,
+    .code-block-css21 img,
+    .code-block-css22 img,
+    .code-block-css23 img,
+    .code-block-css24 img {
+         width: 300px;
+        padding-right: 10px;
+        padding-left: 10px;
+        align-items: center;
+    }
+    .code-block-text {
+        font-size: 10px;
+        max-width: 90%;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center  ;
+  
+  
+    }
+  
+    .code-block-text7 {
+      font-size: 10px;
+        max-width: 90%;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center  ;
+    }
+    .go-button {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        width: 80%;
+        max-width: 200px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+  
+    .go-but-css10 {
+      width: 100%;
+    }
+  }
+  
+  

@@ -1,0 +1,241 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+      background-image: url(../img/Frame.svg);
+      color: white;
+      font-family: monospace;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .progress-bar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 10px; 
+      width: 0%;
+      background: red; 
+  }
+    .container {
+      width: 100%;
+    }
+    .logo {
+      font-family: "JetBrains Mono", serif;
+      color: #000000;
+      text-decoration: none;
+      font-size: 40px;
+      font-weight: bold;
+    
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      gap: 900px;
+      align-items: center;
+      background-color: #fff;
+      color: black;
+      
+    }
+  
+    .header-buttons {
+      display: flex;
+      gap: 10px;
+    }
+  .header h1{
+      font-family: "JetBrains Mono", serif;
+  }
+  
+    .header-buttons a {
+      color: black;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 2px solid black;
+      font-size: 0.8em;
+      font-family: "JetBrains Mono", serif;
+      transition: 0.5s;
+    }
+    .header-buttons a:hover {
+      background-color: black;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+  
+
+    .container {
+      width: 800px;
+      border: 2px solid white;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-top: 50px;
+  }
+  .main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 2s show ease;
+  }
+  .header-main {
+      font-size: 2em;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  main {
+      display: flex;
+      font-family: "JetBrains Mono", serif;
+  }
+  
+  .text-content {
+      width: 60%;
+      font-family: "JetBrains Mono", serif;
+      font-size: 16px
+
+  }
+  .text-content2{
+    width: 130%;
+    font-family: "JetBrains Mono", serif;
+    font-size: 16px
+  }
+  .image-content {
+      width: 40%;
+      margin-left: 10px;
+  }
+  
+  .image-content img {
+      width: 100%;
+  }
+  
+  p {
+      margin-bottom: 10px;
+      line-height: 1.4;
+  }
+  
+  ul {
+      margin-bottom: 10px;
+      padding-left: 20px;
+  }
+  
+  footer {
+      text-align: right;
+      margin-top: 20px;
+  }
+  
+  footer img {
+      width: 150px;
+      height: auto;
+  }
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @media (max-width: 1440px) {
+    .header {
+        gap: 400px;
+        width: 108%;
+      }
+}
+@media (max-width: 1024px) {
+  .header{
+    gap: 100px;
+      width: 100%;
+  }
+.header-buttons {
+  flex-direction: row;
+  gap: 5px;
+  }
+  .container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+  .main1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+  }
+  .text-content{
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) 
+{
+  .header{
+    width: 100%;
+    gap: 100px;
+  }
+  .header-buttons a{
+    font-size: 10px;
+  }
+}
+@media (max-width: 425px)
+{
+  .header{
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+    height: 120px;
+  }
+  .header-buttons{
+    width: 400px;
+  }
+  .main1 {
+   margin-left: -50px;
+  }
+  .text-content{
+    font-size: 12px;
+    width: 100%;
+  }
+  .text-content2 {
+    font-size: 12px;
+    width: 100%;
+  }
+  .image-content{
+    width: 60%;
+    padding-left: 50px;
+  }
+  main{
+    display: grid;
+  }
+  footer img{
+    margin-right: 60px;
+  }
+}
+@media (max-width: 375px){
+  .header-buttons{
+    width: 100%;
+  }
+  .main1 {
+    margin-left: -60px;
+  }
+}
+@media (max-width: 320px) 
+{
+  .header{
+    height: 130px;
+  }
+  .header-buttons a{
+    width: 60px;
+    gap: 20px;
+    font-size: 8px;
+  }
+  .header-buttons{
+    gap: 5px;
+    width: 320px;
+  }
+  .main1{
+    margin-left: -65px;
+  }
+  .image-content{
+    margin-left: -5px;
+  }
+  footer img{
+    margin-right: 40px;
+  }
+}

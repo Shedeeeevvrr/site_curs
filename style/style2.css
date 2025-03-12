@@ -1,0 +1,607 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    background-image: url(../img/Frame.svg);
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .progress-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 10px; 
+    width: 0%;
+    background: red; 
+}
+.logo {
+  font-family: "JetBrains Mono", serif;
+  color: #000000;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+  .container {
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    gap: 1100px;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    
+  }
+
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+.header h1{
+    font-family: "JetBrains Mono", serif;
+}
+
+  .header-buttons a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 0.8em;
+    font-family: "JetBrains Mono", serif;
+    transition: 0.5s;
+  }
+  .header-buttons a:hover {
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  .header-buttons a:nth-child(1) {
+    background-color: darkred;
+    color: white;
+  }
+  .block-curs-title {
+    text-align: center;
+  }
+  .block-curs-title p {
+    font-family: "JetBrains Mono", serif;
+    font-size: 30px;
+  }
+  .block-curs-title p:nth-child(2){
+    font-size: 20px;
+  }
+  .go-button {
+    background-color: black;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    transition: 0.5s;
+  }
+  .go-button:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  .code-block1 {
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    animation: 2s show ease
+  }
+  .code-block2 img{
+    width: 800px;
+    height: 400px;
+  }
+  .code-block1 p{
+    font-family: "JetBrains Mono", serif;
+    font-size: 50px;
+    line-height: 20px;
+  }
+  .code-block1 p:nth-child(2){
+    font-family: "JetBrains Mono", serif;
+    font-size: 40px;
+  }
+  .file-dialog {
+      border: 1px solid white;
+      padding: 5px;
+      width: 150px;
+      text-align: center;
+      margin: 10px auto;
+  }
+  .window-header{
+      background-color: rgb(255, 255, 255);
+      height: 10px;
+  }
+  .block-curs{
+    color: white;
+    font-family: "JetBrains Mono", serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.4;
+  }
+  .code-block2{
+    opacity: 0;
+    gap: 50px ;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 0;
+    transition: 0.3s ease-in-out;
+  }
+ 
+  .code-block-text {
+    font-family: "JetBrains Mono", serif;
+    font-size: 25px;
+  }
+  .code-block3 {
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .code-block3 img {
+    width: 800px;
+    height: 350px;
+  }
+  .code-block4 {
+    margin-top: 101px;
+    gap: 20px;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .code-block4 img{
+    width: 800px;
+  }
+  .code-block4-text{
+    font-family: "JetBrains Mono", serif;
+    font-size: 22px;
+    padding-top: 50px;
+  }
+ .code-block5 {
+    margin-top: 101px;
+    gap: 50px;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+ }
+ .code-block5 img{
+  width: 800px;
+ }
+ .code-block6{
+  margin-top: 101px;
+    gap: 20px;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+ }
+ .code-block7 {
+  margin-top: 101px;
+    gap: 20px;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+ }
+ .code-block8{
+  margin-top: 101px;
+  gap: 20px;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+ }
+ .code-block9{
+  margin-top: 101px;
+  gap: 20px;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+ }
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @media (max-width: 1024px) {
+    .header{
+      gap: 400px;
+        width: 105%;
+  }
+  .header-buttons {
+    flex-direction: row;
+    gap: 5px;
+}
+    .container {
+      width: 90%;
+      padding-left: 10px;
+      padding-right: 10px;
+      align-items: center;
+          text-align: center;
+    }
+    .code-block1 p{
+      font-family: "JetBrains Mono", serif;
+      font-size: 40px;
+      line-height: 30px;
+    }
+    .code-block1 p:nth-child(2){
+      font-family: "JetBrains Mono", serif;
+      font-size: 30px;
+    }
+    .code-block1 img{
+      width: 500px;
+    }
+    .code-block1 {
+      gap: 50px;
+    }
+    .code-block2 img{
+      width: 500px;
+    }
+    .code-block2 {
+      gap: 50px;
+    }
+    .code-block3 img{
+      width: 500px;
+    }
+    .code-block3{
+      gap: 50px;
+    }
+    .code-block3{
+      gap: 50px;
+    }
+    .code-block4 img{
+      width: 500px;
+    }
+    .code-block4 {
+      gap: 50px;
+    }
+    .code-block5 img{
+      width: 500px;
+    }
+    .code-block6 img{
+      width: 500px;
+    }
+    .code-block6 {
+      gap: 50px;
+    }
+    .code-block7 img{
+      width: 500px;
+    }
+    .code-block7{
+      gap: 50px;
+    }
+    .code-block8 img{
+      width: 500px;
+    }
+    .code-block8{
+      gap: 50px;
+    }
+    .code-block9 img{
+      width: 500px;
+    }
+    .code-block9 {
+      gap: 50px;
+    }
+    .code-block-text {
+      margin-top: 50px;
+      gap: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+      .header{
+        gap: 150px;
+          width: 105%;
+    }
+    .code-block1 img{
+      width: 400px;
+    }
+    .code-block1 {
+      gap: 30px;
+    }
+    .code-block2 img{
+      width: 400px;
+    }
+    .code-block2 {
+      gap: 30px;
+    }
+    .code-block3 img{
+      width: 400px;
+    }
+    .code-block3{
+      gap: 30px;
+    }
+    .code-block3{
+      gap: 30px;
+    }
+    .code-block4 img{
+      width: 400px;
+    }
+    .code-block4 {
+      gap: 30px;
+    }
+    .code-block5 img{
+      width: 400px;
+    }
+    .code-block6 img{
+      width: 400px;
+    }
+    .code-block6 {
+      gap: 30px;
+    }
+    .code-block7 img{
+      width: 400px;
+    }
+    .code-block7{
+      gap: 30px;
+    }
+    .code-block8 img{
+      width: 400px;
+    }
+    .code-block8{
+      gap: 30px;
+    }
+    .code-block9 img{
+      width: 400px;
+    }
+    .code-block9 {
+      gap: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .code-block-text {
+      font-size:15px;
+    }
+    .code-block1 p{
+      font-family: "JetBrains Mono", serif;
+      font-size: 30px;
+      line-height: 20px;
+    }
+    .code-block1 p:nth-child(2){
+      font-family: "JetBrains Mono", serif;
+      font-size: 20px;
+    }
+    .container {
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      align-items: center;
+          text-align: center;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .header{
+      gap: 40px;
+        width: 130%;
+      }
+      .block-curs-title{
+        text-align: center;
+        padding-left: 100px;
+      }
+      .block-curs {
+        width: 100%;
+      }
+      .container {
+        width: 130%;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+            text-align: center;
+      }
+      .code-block1 img{
+        width: 300px;
+      }
+      .code-block1 {
+        gap: 20px;
+      }
+      .code-block2 img{
+        width: 300px;
+      }
+      .code-block2 {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block3 img{
+        width: 300px;
+      }
+      .code-block3{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block3{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block4 img{
+        width: 300px;
+      }
+      .code-block4 {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block5 img{
+        width: 300px;
+      }
+      .code-block6 img{
+        width: 300px;
+      }
+      .code-block6 {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block7 img{
+        width: 300px;
+      }
+      .code-block7{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block8 img{
+        width: 300px;
+      }
+      .code-block8{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block9 img{
+        width: 300px;
+      }
+      .code-block9 {
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block-text {
+        font-size:12px;
+      }
+      .code-block1 p{
+        font-family: "JetBrains Mono", serif;
+        font-size: 22px;
+        line-height: 15px;
+      }
+      .code-block1 p:nth-child(2){
+        font-family: "JetBrains Mono", serif;
+        font-size: 15px;
+      }
+      .go-button {
+        width: 150px;
+      }
+
+  }
+  @media (max-width: 375px) {
+    .header{
+        width: 125%;
+      }
+      .header {
+        display: grid ;
+        text-align: center;
+        gap: 10px;
+        height: 120px;
+      }
+      .code-block1 img{
+        width: 200px;
+      }
+      .code-block1 {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .code-block2 img{
+        width: 200px;
+      }
+      .code-block2 {
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block3 img{
+        width: 200px;
+      }
+      .code-block3{
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .code-block4 img{
+        width: 200px;
+      }
+      .code-block4 {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .code-block5 img{
+        width: 200px;
+      }
+      .code-block6 img{
+        width: 200px;
+      }
+      .code-block6 {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block7 img{
+        width: 200px;
+      }
+      .code-block7{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block8 img{
+        width: 200px;
+      }
+      .code-block8{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block9 img{
+        width: 200px;
+      }
+      .code-block9 {
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .code-block-text {
+        font-size:10px;
+      }
+      .code-block1 p{
+        font-family: "JetBrains Mono", serif;
+        font-size: 22px;
+        line-height: 15px;
+      }
+      .code-block1 p:nth-child(2){
+        font-family: "JetBrains Mono", serif;
+        font-size: 15px;
+      }
+      .go-button {
+        width: 130px;
+      }
+      .block-curs-title {
+        text-align: center;
+      }
+      .block-curs-title p {
+        font-family: "JetBrains Mono", serif;
+        font-size: 20px;
+      }
+      .block-curs-title p:nth-child(2){
+        font-size: 14px;
+      }
+      
+  }
+
+  
